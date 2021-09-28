@@ -1,0 +1,28 @@
+// animacion de abrir y cerrar el menu
+@keyframes rotateOne {
+    25% {
+        transform: translateY(26px);
+    }
+    100% {
+        transform: rotate(45deg) translate(18px, 15px);
+    }
+}
+
+@keyframes rotateTwo {
+    25% {
+        transform: translateY(26px);
+    }
+    100% {
+        transform: rotate(-45deg) translate(-16px, 17px);
+    }
+}
+
+@keyframes menu {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+//

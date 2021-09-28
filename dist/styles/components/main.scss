@@ -1,0 +1,56 @@
+.main__container {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    .main {
+        padding-top: 122px;
+        width: 90%;
+        height: 100%;
+        &__principal {
+            width: 100%;
+            height: 100%;
+            &__container {
+                width: 100%;
+                height: 100%;
+                & h2:nth-child(1) {
+                    font-size: 4.5rem;
+                    font-weight: lighter;
+                    line-height: 55px;
+                    letter-spacing: 0.075em;
+                    & b {
+                        color: $color-brand;
+                        font-weight: 600;
+                    }
+                }
+                & h2:nth-child(2) {
+                    font-size: 4.5rem;
+                    font-weight: lighter;
+                    line-height: 55px;
+                    letter-spacing: 0.075em;
+                    & b {
+                        font-weight: 600;
+                    }
+                }
+                & h1:nth-child(3) {
+                    font-size: 4.5rem;
+                    font-weight: lighter;
+                    line-height: 55px;
+                    letter-spacing: 0.075em;
+                    width: 80%;
+                    & b {
+                        font-weight: 800;
+                        color: $color-brand;
+                    }
+                }
+                & div:nth-child(4) {
+                    width: 100%;
+                    height: 50%;
+                    @include center;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                }
+            }
+        }
+    }
+}
