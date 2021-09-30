@@ -21,3 +21,26 @@ buttonMenu.addEventListener('click', () => {
         isOpen = false;
     }
 });
+//
+
+const aboutMe = document.querySelector('.about-me');
+const projects = document.querySelector('.projects');
+const skills = document.querySelector('.skills');
+const contact = document.querySelector('.contact');
+
+// Event: Click on the option menu
+
+function closeMenu(option) {
+    option.addEventListener('click', () => {
+        menu.style.display = 'none';
+        openMenu1.classList.remove('open-menu1');
+        openMenu2.classList.remove('open-menu2');
+        isOpen = false;
+    })
+}
+
+closeMenu(aboutMe);
+closeMenu(projects);
+closeMenu(skills);
+closeMenu(contact);
+//
