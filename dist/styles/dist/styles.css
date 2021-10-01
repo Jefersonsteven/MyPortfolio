@@ -5,6 +5,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  letter-spacing: 0.075em;
 }
 
 ul li {
@@ -215,7 +216,6 @@ body {
   height: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   justify-content: space-evenly;
 }
@@ -310,20 +310,22 @@ body {
 .main__container .main__proyects__container__proyects .proyect__container__cover div:nth-child(1) div:nth-child(2) button {
   border: none;
   background-color: transparent;
-  font-size: 3.6rem;
   font-weight: 700;
 }
 .main__container .main__proyects__container__proyects .proyect__container__cover div:nth-child(1) div:nth-child(2) button a {
   border: none;
-  width: 260px;
-  height: 80px;
+  width: 241px;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #571EA8;
   border-radius: 8px;
   color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
   margin: 0;
+  font-weight: 500;
 }
 .main__container .main__proyects__container__proyects .proyect__container__cover figure:nth-child(2) {
   position: absolute;
@@ -376,6 +378,75 @@ body {
 }
 .main__container .main__skills__container--content__skills ul li {
   font-size: 2.4rem;
+}
+.main__container .main__contact {
+  padding-top: 90px;
+}
+.main__container .main__contact__container {
+  display: grid;
+  grid-gap: 40px;
+}
+.main__container .main__contact__container--title h2 {
+  font-size: 4.8rem;
+}
+.main__container .main__contact__container--title div:nth-child(2) {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.main__container .main__contact__container--title div:nth-child(2) h3 {
+  font-size: 3.6rem;
+  font-weight: 300;
+}
+.main__container .main__contact__container--title figure {
+  display: none;
+}
+.main__container .main__contact__container--content {
+  padding-bottom: 20px;
+}
+.main__container .main__contact__container--content form {
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.main__container .main__contact__container--content form input:hover {
+  border: none;
+}
+.main__container .main__contact__container--content form input:nth-child(1),
+.main__container .main__contact__container--content form input:nth-child(2) {
+  width: 100%;
+  height: 57px;
+  border: 1px solid #571EA8;
+  background: transparent;
+  border-radius: 9px;
+  padding-left: 20px;
+  color: #FFFFFF;
+  outline: none;
+}
+.main__container .main__contact__container--content form textarea {
+  width: 100%;
+  height: 210px;
+  border-radius: 9px;
+  border: 1px solid #571EA8;
+  background: transparent;
+  padding: 20px;
+  color: #FFFFFF;
+  resize: none;
+  outline: none;
+}
+.main__container .main__contact__container--content form input:nth-child(4) {
+  border: none;
+  width: 241px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #571EA8;
+  border-radius: 8px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
 }
 
 @keyframes rotateOne {

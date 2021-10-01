@@ -1,0 +1,13 @@
+.main__container .main__principal__container div:nth-child(4) {
+  height: 35%;
+  flex-direction: row;
+}
+.main__container .main__about-me__container--info {
+  width: 80%;
+}
+.main__container .main__contact__container {
+  grid-gap: 10px;
+}
+.main__container .main__contact__container--title div:nth-child(2) {
+  padding: 20px 0px;
+}

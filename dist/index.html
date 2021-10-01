@@ -9,9 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/dist/styles.css">
     <link rel="stylesheet" href="./styles/dist/normalize.css">
+    <link rel="stylesheet" media="(min-width: 411px)" href="./styles/dist/mobile-two.css">
     <title>Jefferson Steven</title>
 <script defer src="bundle.js"></script></head>
 <body>
+
     <header class="header__container">
         <div class="header">
             <figure>
@@ -41,14 +43,16 @@
                             <h3><a href="#skills">Skills</a><b>.</b></h3>
                         </li>
                         <li class="contact">
-                            <h3><a href="#">Contact</a><b>.</b></h3>
+                            <h3><a href="#contact">Contact</a><b>.</b></h3>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
+
     <div id="start"></div>
+
     <main class="main__container">
         <div class="main">
             <section class="main__principal">
@@ -270,14 +274,21 @@
                             <h3>Let's talk!</h3>
                         </div>
                         <figure>
-                            <img src="/" alt="contactame">
+                            <img src="./assets/images/illus.png" alt="contactame">
                         </figure>
                     </div>
                     <div class="main__contact__container--content">
+                        <form target="blank" class="form" action="https://formspree.io/f/mjvjzyro" method="POST">
+                            <input type="text" class="form__input" placeholder="Name:" name="name">
+                            <input type="email" class="form__input" placeholder="Email:" name="_replyto">
+                            <textarea class="form__input form__input--message" placeholder="Message:" name="message"></textarea>
+                            <input type="submit" value="Send">
+                        </form>
                     </div>
                 </div>
             </section>
         </div>
     </main>
+
 </body>
 </html>
