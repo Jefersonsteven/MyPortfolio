@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T10:07:34.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.7.4" etag="PX7EAKax2XV3SIFeL5kD" type="github"><diagram id="SijSjQ9RKjEK4k0WRjjy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-26T10:31:42.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.7.4" etag="mwP63D5Lztohty3F7EBC" type="github">
+  <diagram id="qO1bl32mRqM6rbTKrtl9" name="Página-1">
+    <mxGraphModel dx="1434" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uLb0yDhLaXHA7ShDqBYo-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-1" value=" Encender la luz de la habitación." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uLb0yDhLaXHA7ShDqBYo-2" target="uLb0yDhLaXHA7ShDqBYo-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="523.5" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-2" value="Esta la luz encendida" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="200" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-7" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uLb0yDhLaXHA7ShDqBYo-8" target="uLb0yDhLaXHA7ShDqBYo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-8" value="Localizar el dispositivo o boton que enciende la luz" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uLb0yDhLaXHA7ShDqBYo-10" target="uLb0yDhLaXHA7ShDqBYo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-10" value="Llegar hasta el dispositivo o boton" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uLb0yDhLaXHA7ShDqBYo-12" target="uLb0yDhLaXHA7ShDqBYo-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-12" value="Activar o oprimir el dispositivo o boton para encender la luz" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="uLb0yDhLaXHA7ShDqBYo-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162.5" y="360" as="sourcePoint" />
+            <mxPoint x="131.25" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-21" value=" Final" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uLb0yDhLaXHA7ShDqBYo-26" value="SI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
